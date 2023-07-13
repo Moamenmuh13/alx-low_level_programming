@@ -9,7 +9,7 @@
 */
 int main(void)
 {
-in t num;
+int num;
 long int long_number; 
 long long int long_long_number
 char c ;
