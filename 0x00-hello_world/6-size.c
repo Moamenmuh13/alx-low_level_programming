@@ -11,7 +11,7 @@ int main(void)
 {
 int num;
 long int long_number; 
-long long int long_long_number
+long long int long_long_number;
 char c ;
 float f ;
 
