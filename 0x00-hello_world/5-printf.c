@@ -5,7 +5,7 @@
 *This funtion serves as the entry point of the program.
 *It prints a specific message with proper grammar to the console.
 *
-*Always: 0 Success
+*Always: 0 on  Successful execution
 */
 int main(void)
 {
