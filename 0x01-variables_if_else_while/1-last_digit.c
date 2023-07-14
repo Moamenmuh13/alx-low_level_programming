@@ -2,10 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-/** main - print the last digit
- *
+/**
+ * main - print the last digit
  * stored the varabile number in 
- * 
  * Return: ALways 0 (success)
  */
 int main(void)
