@@ -1,0 +1,16 @@
+#include "main.h"
+/**
+ * print_alphabet - print all alphabet 10 times in small-case
+ */
+void print_alphabet_x10(void)
+{
+char letter;
+int count = 0;
+for (count = 0; count <= 10; count++)
+{
+for (letter = 'a'; letter <= 'z'; letter++)
+_putchar(letter);
+
+_putchar('\n');
+}
+}
