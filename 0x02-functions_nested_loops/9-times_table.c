@@ -14,7 +14,8 @@ for (num2 = 0; num2 <= 9; num2++)
 result = num1 * num2;
 if (num2 == 0)
 _putchar('0');
-else if (result <= 9){
+else if (result <= 9)
+{
 _putchar(' ');
 _putchar(result + '0');
 }
