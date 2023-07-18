@@ -10,6 +10,4 @@ int _isLower(int c)
     }else{
         return(0);
     }
-    
-
 }
