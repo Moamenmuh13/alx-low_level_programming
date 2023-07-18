@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * is_lower - print all alphabet 10 times in small-case
+ * is_lower - print alphas in small-cases
  */
 int _islower(int c)
 {
