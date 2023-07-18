@@ -1,14 +1,12 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * Print alphabet in small case
  */
 void print_alphabet(void)
 {
-    char letter ; 
+char letter; 
 for (letter = 'a'; letter <= 'z'; letter++)
-    _putchar(letter);
+_putchar(letter);
 
 _putchar('\n');
 
