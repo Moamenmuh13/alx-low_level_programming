@@ -1,1 +1,1 @@
-## Function and Nested loops tasks
+## Functions and nested loop tasks
