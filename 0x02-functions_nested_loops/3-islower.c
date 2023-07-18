@@ -2,7 +2,7 @@
 /**
  * is_lower - print all alphabet 10 times in small-case
  */
-int _isLower(int c)
+int _islower(int c)
 {
     if (c >= 'a' && c<= 'z')
     {
