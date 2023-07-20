@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
- * main - Funtion that print Fizz and buzz
+ * main - entry point
  * 
+ * Description: print numbers from 1 to 100 
+ * Fizz for mul of 3, buzz for mul of 5
+ * FizzBuzz for mul 3 and 5 togther
  * Return: Always 0 (Success)
 */
 
@@ -29,5 +32,5 @@ printf("%d ", i);
 }
 }
 printf("\n");
-return 0;
+return (0);
 }
