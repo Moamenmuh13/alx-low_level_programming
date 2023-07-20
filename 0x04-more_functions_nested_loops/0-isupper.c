@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * _isupper - get all upercase letters
- *
+ * _isupper - get all upercase letters only
  * @c: parameter to check if letter is cap or small
  *
  * Return: 1 for uppercase, 0 for smallcase
