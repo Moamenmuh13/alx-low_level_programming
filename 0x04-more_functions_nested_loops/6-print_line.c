@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_line - Print lines
- * @n: parameter number of lenght of the line
- */
+* print_line - Print lines
+* @n: parameter number of lenght of the line
+*/
 
 void print_line(int n)
 {
