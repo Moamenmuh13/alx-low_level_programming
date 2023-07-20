@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * This function to test if i added 0 as input 
+ * main - This function to test if the input is positive or negative
  *
  * Return: Always 0 (Success)
  */
