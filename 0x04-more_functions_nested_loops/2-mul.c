@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isdigit - get all digits only
+ * mul - mulitple two numbers
  * @a: parameter number 1
  * @b: parameter number
  * Return: result of multiple of two numbers
