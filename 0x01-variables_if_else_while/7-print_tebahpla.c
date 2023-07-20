@@ -2,15 +2,15 @@
 /**
  * main - Entry point
  * Return: Always 0 (success)
-*/
+ */
 int main(void)
 {
-char letter;
+    char letter;
 
-for (letter = 'z'; letter >= 'a' ; letter--)
-putchar(letter);
+    for (letter = 'z'; letter >= 'a'; letter--)
+        putchar(letter);
 
-putchar('\n');
+    putchar('\n');
 
-return (0);
+    return (0);
 }

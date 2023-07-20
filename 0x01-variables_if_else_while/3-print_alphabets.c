@@ -2,18 +2,18 @@
 /**
  * main - Entry point
  * Return: Always 0 (success)
-*/
+ */
 int main(void)
 {
-char letters;
+    char letters;
 
-for (letters = 'a'; letters <= 'z'; letters++)
-putchar(letters);
+    for (letters = 'a'; letters <= 'z'; letters++)
+        putchar(letters);
 
-for ((letters = 'A') ; letters <= 'Z'; letters++)
-putchar(letters);
+    for ((letters = 'A'); letters <= 'Z'; letters++)
+        putchar(letters);
 
-putchar('\n');
+    putchar('\n');
 
-return (0);
+    return (0);
 }

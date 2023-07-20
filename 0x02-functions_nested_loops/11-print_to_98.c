@@ -6,18 +6,18 @@
  */
 void print_to_98(int number)
 {
-if (number >= 98)
-{
-while (number > 98)
-printf("%d, ", number--);
+    if (number >= 98)
+    {
+        while (number > 98)
+            printf("%d, ", number--);
 
-printf("%d\n", number);
-}
-else
-{
-while (number < 98)
-printf("%d, ", number++);
+        printf("%d\n", number);
+    }
+    else
+    {
+        while (number < 98)
+            printf("%d, ", number++);
 
-printf("%d\n", number);
-}
+        printf("%d\n", number);
+    }
 }
