@@ -11,17 +11,18 @@ int i, j, k;
 if (size <= 0)
 {
 _putchar('\n');
-return;
 }
-
-for (i = 0; i < size; i++)
+else
 {
-for (j = size - i; j < 0; j--)
+for (i = 1; i <= size; i++)
+{
+for (j = size - i; j >= 1; j--)
 _putchar(' ');
 
-for (k = 0; j < i; k++)
+for (k = 1; j <= i; k++)
 _putchar('#');
 
 _putchar('\n');
+}
 }
 }
