@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
 * main - entry point
@@ -11,7 +10,7 @@
 * Return: Always 0 (Success)
 */
 
-int main() {
+int main(void) {
 for (int i = 1; i <= 100; i++) {
 if (i % 3 == 0 && i % 5 == 0) {
 printf("FizzBuzz ");
