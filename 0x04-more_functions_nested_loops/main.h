@@ -2,6 +2,7 @@
 #define MAIN_H
 #include <stdio.h>
 
-int _isupeer(int c0);
+int _isupeer(int c);
+int _isdigit(int c);
 
 #endif
