@@ -12,8 +12,9 @@ int i, j, k;
 if (size <= 0)
 {
 _putchar('\n');
-return;
 }
+else
+{
 
 for (i = 1; i < size; i++)
 {
@@ -23,5 +24,6 @@ for (j = 1; j <= i + 1; j++)
 _putchar('#');
 
 _putchar('\n');
+}
 }
 }
