@@ -15,9 +15,6 @@ printf("%d, ", a[i]);
 else
 printf("%d", a[i]);
 
-if (i != n -1)
-_putchar(', ');
-
-}
 _putchar('\n');
+}
 }
