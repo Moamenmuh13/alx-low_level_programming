@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * _strlen - get the length of the text
- * @s: Pointer to the first integer
- * 
- * Return : Length of the stirng
+ * _strlen - Return the length of the string
+ * @s: Pointer to the string whose length is to be caclulated
+ * Return: Length of the stirng
  */
 int _strlen(char *s)
 {
