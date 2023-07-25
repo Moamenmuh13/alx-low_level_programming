@@ -3,7 +3,6 @@
  * *_strcpy - Print all alements of an array
  * @dest: the destination buffer
  * @src: the source starting te be copied
- * 
  * Return: The pointer to the destination buffer (dest).
  */
 
@@ -18,5 +17,5 @@ i++;
 }
 dest[i] = '\0';
 
-return dest;
+return (dest);
 }
