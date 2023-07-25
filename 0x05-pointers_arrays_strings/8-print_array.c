@@ -6,11 +6,13 @@
  */
 void print_array(int *a, int n)
 {
-if (n <= 0)
-return;
+int i;
 
-for (int i = 0; i < n; i++)
+for (i = 0; i < n; i++)
 {
+if (i != n - 1)
+printf("%d, ", a[i]);
+else
 printf("%d", a[i]);
 
 if (i != n -1)
