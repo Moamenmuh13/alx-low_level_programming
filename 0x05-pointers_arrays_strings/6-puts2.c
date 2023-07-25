@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _puts2 - Print the string
+ * puts2 - Print every other character of a string, starting with the first character.
  * @str: The string to print
  */
-void _puts2(char *str)
+void puts2(char *str)
 {
 int i = 0;
 while (str[i] != '\0')
