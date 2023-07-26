@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * leet - Concatenates src to dest.
+ * string_toupper - Concatenates src to dest.
  * @str: The input string.
  * Return: A pointer of the resulting string
  */
