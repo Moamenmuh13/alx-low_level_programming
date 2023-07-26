@@ -11,9 +11,9 @@ int i, j;
 char letters[] = "aAeEoOtTlL";
 char replacements[] = "4433007711";
 
-for (i = 0; *(str + 1); i++)
+for (i = 0; str[i] != '\0'; i++)
 {
-for (j = 0; letters[j] != '\0'; i++)
+for (j = 0; letters[j] != '\0'; j++)
 {
 if (str[i] == letters[j])
 {
