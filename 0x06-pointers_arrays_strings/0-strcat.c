@@ -24,5 +24,5 @@ src++;
 
 *dest = '\0';
 
-return dest_end;
+return (dest_end);
 }
