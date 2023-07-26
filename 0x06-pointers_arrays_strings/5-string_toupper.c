@@ -5,18 +5,18 @@
  * Return: A pointer of the resulting string
  */
 
-char *leet(char *str)
+char *leet(char *c)
 {
-char *ptr = str;
+int ptr;
+ptr = 0;
 
-while (*ptr != '\0')
+while (*(c + ptr))
 {
-if (*ptr >= 'a' && *ptr <= 'z')
-{
-*ptr = *ptr - 32;
-}
+if (*(c + ptr) >= 'a' && *(c + ptr) <= 'z')
+*(c + ptr) = *(c + ptr) - ('a' - 'A');
+
 ptr++;
 }
 
-return (str);
+return (c);
 }
