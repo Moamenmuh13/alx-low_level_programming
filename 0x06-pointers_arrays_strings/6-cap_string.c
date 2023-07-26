@@ -18,7 +18,7 @@ if (i == 0)
 *(str + i) = *(str + i) - ('a' - 'A');
 else
 {
-for (x = 0; x <= 12; x++) // Change i to x here
+for (x = 0; x <= 12; x++)
 {
 if (separators[x] == *(str + i - 1))
 *(str + i) = *(str + i) - ('a' - 'A');
