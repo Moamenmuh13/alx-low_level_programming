@@ -8,13 +8,14 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned intt count = 0;
+
+unsigned int count = 0;
 int found;
 
 while (*s != '\0')
 {
 found = 0;
-while (accept != '\0')
+while (*accept != '\0')
 {
 if (*s == *accept)
 {
@@ -23,7 +24,6 @@ break;
 }
 accept++;
 }
-
 if (!found)
 break;
 
@@ -31,6 +31,5 @@ count++;
 s++;
 accept = accept - count + 1;
 }
-
 return (count);
 }
