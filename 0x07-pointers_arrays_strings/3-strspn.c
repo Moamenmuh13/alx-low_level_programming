@@ -6,7 +6,7 @@
  * Return: the number of bytes in the initial segment of 's'.
 */
 
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char *s, char *accept)
 {
 unsigned intt count = 0;
 int found;
@@ -14,7 +14,7 @@ int found;
 while (*s != '\0')
 {
 found = 0;
-while ((accept != '\0'))
+while (accept != '\0')
 {
 if (*s == *accept)
 {
@@ -31,5 +31,6 @@ count++;
 s++;
 accept = accept - count + 1;
 }
+
 return (count);
 }
