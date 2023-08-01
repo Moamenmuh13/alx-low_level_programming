@@ -31,5 +31,6 @@ count++;
 s++;
 accept = accept - count + 1;
 }
+
 return (count);
 }
