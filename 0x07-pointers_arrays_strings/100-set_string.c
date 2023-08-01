@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * set_string - chessboard
+ * set_string - change the value of pointer to a char
  * @s: pointer to change
  * @to: string to change pointer to
 */
