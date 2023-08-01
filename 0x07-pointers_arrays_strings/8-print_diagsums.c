@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * print_diagsums - chessboard
- * @a: pointer to the chess pieces
- * @size: pointer to the chess pieces
+ * @a: pointer to start of matrix
+ * @size: width of the matrix
 */
 
 void print_diagsums(int *a, int size)
