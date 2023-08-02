@@ -8,10 +8,12 @@
 */
 int _sqrt_helper(int n, int low, int high)
 {
+int mid; 
+
 if (low > high)
 return (-1);
 
-int mid = (low + high) / 2;
+mid = (low + high) / 2;
 int mid_squared = mid * mid;
 
 if (mid_squared == n)
