@@ -14,7 +14,7 @@ if (low > high)
 return (-1);
 
 mid = (low + high) / 2;
-mid_squared = mid * mid;
+mid_squared = mid *mid;
 
 if (mid_squared == n)
 return (mid);
