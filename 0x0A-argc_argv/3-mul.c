@@ -5,14 +5,14 @@
  * main - Entry point of the program
  * @argc: The number of argument passed to the program
  * @argv: an array of strings containing the argument
- * Return: 0 on success, 1 if the program dosen't receive two arguments.
+ * Return: 0
 */
 
 int main(int argc, char *argv[])
 {
 int num1, num2, result;
 
-if (argc != 3)
+if (argc < 3)
 {
 printf("Error\n")
 return (1);
