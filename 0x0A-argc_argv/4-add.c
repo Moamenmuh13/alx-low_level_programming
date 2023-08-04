@@ -2,13 +2,10 @@
 #include <stdlib.h>
 
 /**
- * 
  * is_positive_number - check if a string contains a postive number.
  * @str: The string to check
- * 
  * Return: 1 if the string contain a positive num, 0 otherwise.
 */
-
 
 int is_positive_number(char *str)
 {
