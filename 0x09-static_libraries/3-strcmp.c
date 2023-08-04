@@ -1,10 +1,5 @@
 #include "main.h"
-/**
- * _strcmp - Concatenates src to dest.
- * @s1: The first string to be compared
- * @s2: The second string to be compared
- * Return: A negative, zero, or positive integer depending on result.
- */
+
 
 int _strcmp(char *s1, char *s2)
 {

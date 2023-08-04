@@ -1,10 +1,4 @@
 #include "main.h"
-/**
- * _strchr - locate a character in a string
- * @s: pointer to the string to search in
- * @c: char to search for
- * Return: A pointer to the characters or NULL
-*/
 
 char *_strchr(char *s, char c)
 {
