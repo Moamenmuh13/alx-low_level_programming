@@ -13,7 +13,7 @@ int cents, coins = 0;
 
 if (argc != 2)
 {
-printf("Error\n")
+printf("Error\n");
 return (1);
 }
 
@@ -35,7 +35,7 @@ else if (cents >= 5)
 cents -= 5;
 else if (cents >= 2)
 cents -= 2;
-else 
+else
 cents -= 1;
 
 coins++;
