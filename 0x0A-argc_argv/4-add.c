@@ -33,7 +33,7 @@ int i, sum = 0;
 
 for (i = 1; i < argc; i++)
 {
-if (!is_positive_number(argv))
+if (!is_positive_number(argv[i]))
 {
 printf("Error\n");
 return (1);
