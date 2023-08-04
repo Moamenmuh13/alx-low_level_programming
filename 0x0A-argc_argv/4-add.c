@@ -5,7 +5,7 @@
  * main - Entry point of the program
  * @argc: The number of argument passed to the program
  * @argv: an array of strings containing the argument
- * Return: 0 on success, 1 if the string contians a positive number, 0 otherwise.
+ * Return: 0 on success, 1 if string contians a positive number, 0 otherwise.
 */
 
 int main(int argc, char *argv[])
