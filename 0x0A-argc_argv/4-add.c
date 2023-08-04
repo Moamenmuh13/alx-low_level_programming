@@ -5,25 +5,26 @@
  * main - Entry point of the program
  * @argc: The number of argument passed to the program
  * @argv: an array of strings containing the argument
- * Return: 0 on success, 1 if the program dosen't receive two arguments.
+ * Return: 0 on success, 1 if the string contians a positive number, 0 otherwise.
 */
 
 int main(int argc, char *argv[])
 {
-int num1, num2, result;
+int i, sum = 0;
 
-if (argc != 3)
+for (i = 1; i < argc; i++)
 {
-printf("Error\n")
+if (!is_positive_number(argv))
+{
+printf("Error\n");
 return (1);
 }
 
-num1 = atoi(argv[1]);
-num2 = atoi(argv[2]);
+sum += atoi(argv[i]);
 
-result = num1 *num2;
-printf("%d\n", result);
+}
 
+printf("%d\n", sum);
 
 return (0);
 }
