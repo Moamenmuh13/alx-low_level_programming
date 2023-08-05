@@ -17,5 +17,5 @@ if (*s == c)
 return (s);
 }
 
-return (NULL);
+return ('\0');
 }
