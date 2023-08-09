@@ -37,6 +37,7 @@ for (j = 0; j < length2; j++)
 concat[j] = s2[j];
 
 concat[i];
-}
+
 return (concat);
+}
 }
