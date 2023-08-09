@@ -21,7 +21,6 @@ length1++;
 if (s2 != NULL)
 {
 while (s2[length2] != '\0')
-{
 length2++;
 }
 
@@ -39,5 +38,4 @@ concat[j] = s2[j];
 concat[i] = '\0';
 
 return (concat);
-}
 }
