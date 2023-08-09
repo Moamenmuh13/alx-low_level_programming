@@ -24,7 +24,7 @@ while (s2[length2] != '\0')
 length2++;
 }
 
-concat = malloc((length1 + length2) *sizeof(char));
+concat = malloc((length1 + length2 + 1) *sizeof(char));
 
 if (concat == NULL)
 return (NULL);
