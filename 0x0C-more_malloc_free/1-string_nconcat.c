@@ -17,6 +17,7 @@ unsigned int len_s1, len_s2, total_length;
 
 if (s1 == NULL)
 s1 = "";
+
 if (s2 == NULL)
 s2 = "";
 
@@ -34,7 +35,7 @@ if (concatenated == NULL)
 return (NULL);
 
 strncpy(concatenated, s1, len_s1);
-strncpy(concatenated, len_s1, s2, n);
+strncpy(concatenated + len_s1, s2, n);
 
 return (concatenated);
 }
