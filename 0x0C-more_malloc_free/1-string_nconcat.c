@@ -36,7 +36,7 @@ return (NULL);
 for (i = 0; i < len_s1; i++)
 concatenated[i] = s1[i];
 
-for (j = 0; j < len_s2; j++)
+for (j = 0; j < n; j++, i++)
 concatenated[i] = s2[j];
 
 
