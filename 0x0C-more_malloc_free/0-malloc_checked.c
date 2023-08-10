@@ -1,13 +1,19 @@
 #include "main.h"
 #include <stdlib.h>
+#include <limits.h>
+
 /**
- * malloc_checked - Create an array of chars
- * @b: size of array
- * Return: void
+ * malloc_checked - Allocates memory using malloc
+ * @b: number of bytes
+ * Return: a pointer to the allocated memory
 */
 
 void *malloc_checked(unsigned int b)
 {
+void *ptr = malloc(b);
 
-return (array);
+if (ptr == NULL)
+exit(98);
+
+return (ptr);
 }
