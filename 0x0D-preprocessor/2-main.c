@@ -1,7 +1,12 @@
 #include <stdio.h>
+/**
+ * main - print name of the file
+ * Return: Always success(0)
+*/
 
-int main()
+
+int main(void)
 {
 printf("%s\n", __FILE__)
-return 0;
+return (0);
 }
