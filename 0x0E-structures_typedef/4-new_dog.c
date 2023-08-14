@@ -33,6 +33,7 @@ return (NULL);
 
 for (i = 0; i < name_len; i++)
 new_dog->name[i] = name[i];
+new_dog->name[i] = '\0';
 
 while (owner[owner_len] != '\0')
 owner_len++;
@@ -48,6 +49,9 @@ return (NULL);
 
 for (j = 0; j < owner_len; j++)
 new_dog->owner[j] = owner[j];
+new_dog->owner[j] = '\0';
+
+new_dog->age = age;
 
 return (new_dog);
 }
