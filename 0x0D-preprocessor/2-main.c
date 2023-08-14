@@ -2,6 +2,6 @@
 
 int main()
 {
-printf(__FILE__ '\n')
+printf(__FILE__ ,'\n')
 return 0;
 }
