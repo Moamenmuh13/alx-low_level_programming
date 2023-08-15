@@ -42,13 +42,13 @@ free(dog);
 return (NULL);
 }
 
-for (i = 0; i <= name_len; i++)
+for (i = 0; i < name_len; i++)
 dog->name[i] = name[i];
 
 dog->name[i] = '\0';
 
 
-for (j = 0; j <= owner_len; j++)
+for (j = 0; j < owner_len; j++)
 dog->owner[j] = owner[j];
 
 dog->owner[j] = '\0';
