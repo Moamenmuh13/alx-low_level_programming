@@ -16,6 +16,7 @@ dog_t *dog;
 
 if (name == NULL || owner == NULL)
 return (NULL);
+
 dog = malloc(sizeof(dog_t));
 if (dog == NULL)
 return (NULL);
@@ -23,23 +24,17 @@ return (NULL);
 while (name[name_len] != '\0')
 name_len++;
 
-dog->name = malloc(name_len + 1);
+while (owner[owner_len] != '\0')
+owner_len++;
 
+dog->name = malloc((name_len + 1) * sizeof(char));
 if (dog->name == NULL)
 {
 free(dog);
 return (NULL);
 }
 
-for (i = 0; i < name_len; i++)
-dog->name[i] = name[i];
-dog->name[i] = '\0';
-
-while (owner[owner_len] != '\0')
-owner_len++;
-
-dog->owner = malloc(sizeof(owner_len + 1));
-
+dog->owner = malloc((ownen_len + 1) * sizeof(char));
 if (dog->owner == NULL)
 {
 free(dog->name);
@@ -47,7 +42,12 @@ free(dog);
 return (NULL);
 }
 
-for (j = 0; j < owner_len; j++)
+for (i = 0; i <= name_len; i++)
+dog->name[i] = name[i];
+dog->name[i] = '\0';
+
+
+for (j = 0; j <= owner_len; j++)
 dog->owner[j] = owner[j];
 dog->owner[j] = '\0';
 
