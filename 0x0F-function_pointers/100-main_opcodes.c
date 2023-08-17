@@ -31,8 +31,8 @@ for (i = 0; i < bytes; i++)
 printf("%02x", main_ptr[i]);
 if (i < bytes - 1)
 printf(" ");
-
-printf("\n");
 }
+printf("\n");
+
 return (0);
 }
