@@ -19,16 +19,16 @@ while (format && format[i])
 {
 switch (format[i])
 {
-case 'c'
+case 'c':
 printf("%c", va_arg(args, int));
 break;
-case 'i'
+case 'i':
 printf("%d", va_arg(args, int));
 break;
-case 'f'
+case 'f':
 printf("%f", va_arg(args, double));
 break;
-case 's'
+case 's':
 str = va_arg(args, char *);
 if (str == NULL)
 str = "(nil)";
@@ -39,7 +39,7 @@ i++;
 continue;
 }
 if (format[i + 1])
-printf(", ")
+printf(", ");
 
 i++;
 
