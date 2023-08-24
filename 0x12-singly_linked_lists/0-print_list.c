@@ -7,19 +7,18 @@
 
 size_t print_list(const list_t *h)
 {
-size_t count = 0;
-const list_t *current = h;
+int count = 0;
 
-while (current != NULL)
+while (h)
 {
-if (current->str == NULL)
+if (h->str == NULL)
 printf("[0] (nil)\n");
 else
 {
-printf("[%d] %s\n", current->len, current->str);
+printf("[%d] %s\n", h->len, h->str);
 }
 count++;
-current = current->next;
+h = h->next;
 }
 
 return (count);
