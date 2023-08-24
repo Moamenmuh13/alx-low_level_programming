@@ -16,7 +16,7 @@ if (current->str == NULL)
 printf("[0] (nil)\n");
 else
 {
-printf("[%lu] %s\n", current->len, current->str);
+printf("[%d] %s\n", current->len, current->str);
 }
 count++;
 current = current->next;
