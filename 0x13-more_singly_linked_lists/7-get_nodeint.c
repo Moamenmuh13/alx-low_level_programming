@@ -16,7 +16,7 @@ if (count == index)
 return (current);
 
 current = current->next;
-current++;
+count++;
 }
 
 return (NULL);
