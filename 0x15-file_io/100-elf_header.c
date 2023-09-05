@@ -1,10 +1,4 @@
-#include <elf.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 void check_elf(unsigned char *e_ident);
 void print_magic(unsigned char *e_ident);
@@ -260,7 +254,8 @@ void close_elf(int elf)
 }
 
 /**
- * main - Displays the information contained in the ELF header at the start of an ELF file.
+ * main - Displays the information contained in the
+ *        ELF header at the start of an ELF file.
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
  *
